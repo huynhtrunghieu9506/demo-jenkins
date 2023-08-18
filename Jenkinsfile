@@ -23,13 +23,6 @@ pipeline {
             }
         }
 
-        stage('Deploy') {
-            steps {
-                // Deploy the Spring Boot application, e.g., to a Tomcat server
-                // You can use scripts or tools appropriate for your deployment process
-                //sh './deploy.sh'
-            }
-        }
     }
 
     post {
