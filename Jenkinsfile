@@ -12,14 +12,14 @@ pipeline {
         stage('Build') {
             steps {
                 // Use a tool such as Maven or Gradle to build the Spring Boot project
-                sh 'mvn clean package'
+                bat 'mvn clean package'
             }
         }
 
         stage('Test') {
             steps {
                 // Run tests, if applicable
-                sh 'mvn test'
+                bat 'mvn test'
             }
         }
 
