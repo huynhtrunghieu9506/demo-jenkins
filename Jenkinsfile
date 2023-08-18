@@ -24,11 +24,4 @@ pipeline {
         }
 
     }
-
-    post {
-        always {
-            // Clean up or perform any necessary post-build actions
-            // For example, stopping servers, sending notifications, etc.
-        }
-    }
 }
